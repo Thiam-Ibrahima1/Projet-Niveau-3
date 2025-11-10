@@ -1,0 +1,30 @@
+[
+  {
+    "id": "c9a5c3bf-16a1-4fba-8691-23fd67a39d61",
+    "title": "Faire les courses",
+    "description": "Acheter du pain et du lait",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2025-10-25",
+    "userId": "u1",
+    "createdAt": "2025-10-31T07:21:12.932Z"
+  },
+  {
+    "id": "cf16f215-d7f5-4ce2-aa4c-fbfbd846ea14",
+    "title": "Finaliser le projet Exo 2.2",
+    "description": "S'assurer que tous les tests Postman passent.",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2025-11-05",
+    "createdAt": "2025-10-31T15:07:50.685Z"
+  },
+  {
+    "id": "4f0acd70-5abc-497c-8338-4196e1442191",
+    "title": "Finaliser le projet Exo 2.2",
+    "description": "S'assurer que tous les tests Postman passent.",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2025-11-05",
+    "createdAt": "2025-10-31T15:38:11.922Z"
+  }
+]

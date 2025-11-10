@@ -1,0 +1,42 @@
+/**
+ * Styles globaux de l'application
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles de base pour tout le document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Police et couleur de fond de la page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Comportement du défilement */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animations personnalisées */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Classe CSS pour appliquer l'animation */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
